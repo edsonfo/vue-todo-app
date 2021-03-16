@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoFooter component tests should match snapshot 1`] = `
+<v-container-stub
+  tag="div"
+>
+  <v-card-text-stub
+    class="footer-text"
+  >
+    
+    Double-click to edit a todo
+    <br />
+    
+    Credits: Edson Fernandez
+    <br />
+    
+    TodoVueApp
+  
+  </v-card-text-stub>
+</v-container-stub>
+`;

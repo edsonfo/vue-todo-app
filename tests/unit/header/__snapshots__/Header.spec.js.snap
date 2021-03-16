@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld.vue should match snapshot 1`] = `
+<v-container-stub
+  tag="div"
+>
+  <v-row-stub
+    class="-centtexter"
+    tag="div"
+  >
+    <v-col-stub
+      class="mb-4"
+      tag="div"
+    >
+      <h1
+        class="title-todo"
+      >
+        
+        todos
+      
+      </h1>
+    </v-col-stub>
+  </v-row-stub>
+   
+  <todofooter-stub />
+</v-container-stub>
+`;
