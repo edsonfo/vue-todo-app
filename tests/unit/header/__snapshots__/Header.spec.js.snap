@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HelloWorld.vue should match snapshot 1`] = `
+exports[`Header component tests should match snapshot 1`] = `
 <v-container-stub
   tag="div"
 >
@@ -21,7 +21,5 @@ exports[`HelloWorld.vue should match snapshot 1`] = `
       </h1>
     </v-col-stub>
   </v-row-stub>
-   
-  <todofooter-stub />
 </v-container-stub>
 `;

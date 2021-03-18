@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TodoFooter component tests should match snapshot 1`] = `
+exports[`Footer component tests should match snapshot 1`] = `
 <v-container-stub
   tag="div"
 >
@@ -14,7 +14,7 @@ exports[`TodoFooter component tests should match snapshot 1`] = `
     Credits: Edson Fernandez
     <br />
     
-    TodoVueApp
+    TodoVueApp © 2021
   
   </v-card-text-stub>
 </v-container-stub>
