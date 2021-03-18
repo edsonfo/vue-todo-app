@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row class="-centtexter">
+    <v-row>
       <v-col class="mb-4">
         <h1 class="title-todo">
           todos
