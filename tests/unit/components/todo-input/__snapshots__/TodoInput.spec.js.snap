@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoInput component tests should match snapshot 1`] = `
+<form
+  class="input-model"
+>
+  <v-text-field-stub
+    backgroundcolor=""
+    class="text-placeholder"
+    clearable="true"
+    clearicon="$clear"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    placeholder="what needs to be done?"
+    rules=""
+    successmessages=""
+    type="text"
+    value=""
+  >
+    <v-btn-stub
+      activeclass=""
+      icon="true"
+      tag="button"
+      type="button"
+    >
+      <v-icon-stub>
+        
+        M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z
+      
+      </v-icon-stub>
+    </v-btn-stub>
+     
+    <!---->
+  </v-text-field-stub>
+</form>
+`;
