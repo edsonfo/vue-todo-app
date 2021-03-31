@@ -1,37 +1,29 @@
 <template>
-  <form class="input-model">
-    <v-text-field
-      class="text-placeholder"
-      placeholder="what needs to be done?"
-      clearable
-      v-model="textValue"
+  <v-text-field
+    v-model="value"
+    class="todo-input"
+    placeholder="what needs to be done?"
+    clearable
+  >
+    <v-icon
+      v-if="!!value"
+      icon
+      class="btn-save"
+      slot="append"
+      @click="onAddTodo"
     >
-      <v-btn icon slot="prepend-inner">
-        <v-icon>
-          {{ icons.mdiChevronDown }}
-        </v-icon>
-      </v-btn>
-
-      <v-icon @click="onAddTodo" v-if="!!textValue" icon slot="append">
-        {{ icons.mdiContentSave }}
-      </v-icon>
-    </v-text-field>
-  </form>
+      mdi-content-save
+    </v-icon>
+  </v-text-field>
 </template>
 
 <script>
-  import { mdiChevronDown, mdiContentSave } from '@mdi/js'
-
   export default {
     name: 'TodoInput',
 
     data() {
       return {
-        textValue: '',
-        icons: {
-          mdiChevronDown,
-          mdiContentSave
-        }
+        value: ''
       }
     },
     methods: {
@@ -47,13 +39,12 @@
     margin-right: auto;
     margin-left: auto;
   }
-  .text-placeholder {
-    padding: 16px 16px 16px 16px;
+  .todo-input {
+    width: 100%;
+    padding: 16px;
     font-family: Roboto;
     font-style: oblique;
     font-size: 26px;
-    max-width: 1300px;
-    margin-bottom: -18px;
     min-width: 600px;
   }
 </style>
