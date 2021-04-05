@@ -14,8 +14,15 @@ exports[`TodoInput component tests should match snapshot 1`] = `
   rules=""
   successmessages=""
   type="text"
-  value=""
+  value="hola"
 >
-  <!---->
+  <v-icon-stub
+    class="btn-save"
+    icon=""
+  >
+    
+    mdi-content-save
+  
+  </v-icon-stub>
 </v-text-field-stub>
 `;

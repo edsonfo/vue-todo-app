@@ -28,7 +28,7 @@
     },
     methods: {
       onAddTodo() {
-        this.$emit('add-todo')
+        this.$emit('add-todo', this.value)
       }
     }
   }
