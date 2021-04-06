@@ -4,7 +4,7 @@ import TodoInput from '@/components/todo-input/TodoInput.vue'
 describe('TodoInput component tests', () => {
   const wrapper = shallowMount(TodoInput, {
     data: () => ({
-      value: 'hola'
+      value: 'task 1'
     })
   })
 
@@ -26,6 +26,6 @@ describe('TodoInput component tests', () => {
     const button = wrapper.find('.btn-save')
     button.trigger('click')
     const eventEmitted = wrapper.emitted()['add-todo']
-    expect(eventEmitted[0][0]).toEqual('hola')
+    expect(eventEmitted[0][0]).toEqual('task 1')
   })
 })

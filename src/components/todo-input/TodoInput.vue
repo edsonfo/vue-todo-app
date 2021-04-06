@@ -26,6 +26,7 @@
         value: ''
       }
     },
+
     methods: {
       onAddTodo() {
         this.$emit('add-todo', this.value)
@@ -34,17 +35,11 @@
   }
 </script>
 <style lang="less" scoped>
-  .input-model {
-    max-width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-  }
   .todo-input {
     width: 100%;
     padding: 16px;
     font-family: Roboto;
     font-style: oblique;
     font-size: 26px;
-    min-width: 600px;
   }
 </style>

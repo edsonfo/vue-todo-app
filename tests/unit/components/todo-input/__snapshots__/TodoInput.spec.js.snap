@@ -14,7 +14,7 @@ exports[`TodoInput component tests should match snapshot 1`] = `
   rules=""
   successmessages=""
   type="text"
-  value="hola"
+  value="task 1"
 >
   <v-icon-stub
     class="btn-save"
