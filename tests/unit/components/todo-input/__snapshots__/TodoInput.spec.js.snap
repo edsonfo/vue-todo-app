@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoInput component tests should match snapshot 1`] = `
+<v-text-field-stub
+  backgroundcolor=""
+  class="todo-input"
+  clearable="true"
+  clearicon="$clear"
+  errorcount="1"
+  errormessages=""
+  loaderheight="2"
+  messages=""
+  placeholder="what needs to be done?"
+  rules=""
+  successmessages=""
+  type="text"
+  value="task 1"
+>
+  <v-icon-stub
+    class="btn-save"
+    icon=""
+  >
+    
+    mdi-content-save
+  
+  </v-icon-stub>
+</v-text-field-stub>
+`;
